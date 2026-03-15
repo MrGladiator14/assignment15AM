@@ -1,0 +1,21 @@
+bryson@bryson-Nitro-15:~/dev/week-3/assignment15AM$ uv run statistics_scenarios_analysis.py
+S1  P(X > 220)           = 0.0753
+S2  P(X = 3)            = 0.0607
+S3  P(X > 60)           = 0.0304
+S3  P(40 < X < 50)     = 0.4680
+S3  z-score at x=60    = 1.875
+S4  P(X = 0) in 6 min  = 0.3679
+S5  Standard error      = 2.5355
+S5  P(X̄ > 75)          = 0.0243
+S5  95% CI half-width   = 4.97
+
+============================================================
+SUMMARY OF PROBABILITY CALCULATIONS
+============================================================
+S1 (Poisson):    P(X > 220)              = 0.0753
+S2 (Binomial):   P(X = 3)                = 0.0607
+S3 (Normal):     P(X > 60)               = 0.0304
+S3 (Normal):     P(40 < X < 50)          = 0.4680
+S4 (Poisson):    P(X = 0) in 6 min       = 0.3679
+S5 (CLT):        P(X̄ > 75)               = 0.0243
+============================================================

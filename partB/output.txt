@@ -1,0 +1,10 @@
+bryson@bryson-Nitro-15:~/dev/week-3/assignment15AM$ uv run beta_distribution_demo.py 
+Saved: beta_distributions.png
+
+(3) Posterior update:
+Prior: Beta(1, 1)
+Data: 7 heads, 3 tails
+Posterior: Beta(8, 4)
+Saved: prior_vs_posterior.png
+Posterior mean: 0.667
+This means we believe the coin has about 66.7% probabil

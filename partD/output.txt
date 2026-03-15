@@ -1,0 +1,38 @@
+bryson@bryson-Nitro-15:~/dev/week-3/assignment15AM$ uv run clt_simulation.py 
+🎲 Central Limit Theorem Simulation for Product Managers
+============================================================
+
+📋 SIMULATION PARAMETERS:
+• Sample size: 50
+• Number of samples: 1000
+• Population size: 10000
+
+🔧 Generating non-normal population data...
+📊 Calculating sample means (this demonstrates CLT)...
+📈 Creating visualization...
+
+============================================================
+CENTRAL LIMIT THEOREM DEMONSTRATION RESULTS
+============================================================
+
+📊 SAMPLING DISTRIBUTION STATISTICS:
+                         Exponential         Bimodal
+-------------------------------------------------------
+Mean of Sample Means           1.991           4.983
+Std Dev of Samples             0.282           0.433
+
+🎯 ACCURACY CHECK:
+Exponential - True Mean: 2.000, Sample Mean: 1.991, Error: 0.009
+Bimodal - True Mean: 5.000, Sample Mean: 4.983, Error: 0.017
+
+🔍 CLT INSIGHT:
+• Both messy distributions became approximately normal
+• Sample means cluster around true population means
+• Standard deviation decreases with larger samples
+• This enables reliable A/B testing p-values!
+
+💾 Visualization saved as 'clt_visualization.png'
+
+🎉 CLT Simulation Complete!
+   The visualization shows how messy data becomes normal through averaging!
+bryson@bryson-Nitro-15:~/dev/week-3/assignment15AM$ 

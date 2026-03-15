@@ -1,0 +1,17 @@
+Task: Explain the Central Limit Theorem (CLT) to a non-technical Product Manager, focusing on its practical utility in A/B testing.
+
+Requirements:
+
+Conceptual Explanation: Use a high-level analogy (e.g., the "Dice" or "Average of Averages" concept) to explain why CLT allows us to make claims about population means even when the underlying data is messy or non-normal.
+
+Business Impact: Explicitly state why CLT is the "engine" behind p-values and confidence intervals in product experiments.
+
+Python Simulation: Provide a clean, PEP 8-compliant Python script that:
+
+Generates a non-normal distribution (e.g., Exponential or Bi-modal).
+
+Performs a sampling distribution simulation.
+
+Visualizes the results using matplotlib or seaborn.
+
+Coding Standards: Use descriptive variable names, type hinting, and functional programming blocks for readability.
